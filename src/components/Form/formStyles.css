@@ -1,0 +1,20 @@
+:root{
+    --loader-size : "1.5rem"
+}
+@keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .loader {
+    border: 6px solid #0099ff;
+    border-top: 6px solid #ffffff;
+    border-radius: 50%;
+    width: 2.1rem;
+    height: 2.1rem;
+    animation: spin 2s linear infinite;
+  }
